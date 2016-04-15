@@ -1,0 +1,55 @@
+header > nav:first-child {
+	background: #0066A4;
+	padding: 7rem;
+}
+section, footer {
+	color: #0066A4;
+	text-align: center;
+}
+section > h3, footer > h3 {
+	margin: 0;
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+	text-transform: capitalize;
+	border-bottom: 1px solid inherit;
+}
+footer {
+	background: #fff;
+	min-height: 320px;
+}
+.image>img {
+	width: 100%;
+}
+.county-details {
+	background: #fff;
+	min-height: 370px;
+}
+.county-connection {
+	color: #fff;
+	background: #0A3F9D;
+	min-height: 970px;
+}
+.news {
+	background: #fff;
+	min-height: 370px;
+}
+.post-news {
+	background: #ededed;
+	min-height: 370px;
+}
+.tweets {
+	background: #fff;
+	min-height: 370px;
+}
+.fast-facts {
+	background: #ededed;
+	min-height: 670px;
+}
+.success-stories {
+	background: #fff;
+	min-height: 670px;
+}
+.major-employees {
+	background: #ededed;
+	min-height: 670px;
+}
