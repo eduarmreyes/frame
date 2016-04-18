@@ -1,6 +1,6 @@
 header > nav:first-child {
 	background: #0066A4;
-	padding: 7rem;
+	padding: 1.5rem;
 }
 section, footer {
 	color: #0066A4;
@@ -16,6 +16,26 @@ section > h3, footer > h3 {
 footer {
 	background: #fff;
 	min-height: 320px;
+}
+.navbar-default {
+	background-color: #fff;
+	border-color: #fff;
+}
+.navbar-toggle {
+	border-radius: 44px;
+	background: #128DDA;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background: #fff;
+}
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+.internal-menu {
+	display: none;
+}
+.social-widgets {
+	display: none;
 }
 .image>img {
 	width: 100%;
@@ -52,4 +72,20 @@ footer {
 .major-employees {
 	background: #ededed;
 	min-height: 670px;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-width: 768px) {
+	.container {
+		padding: 0;
+		margin: 0;
+	}
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+	.internal-menu {
+		display: block;
+	}
+	.social-widgets {
+		display: block;
+	}
 }
