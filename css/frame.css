@@ -4,7 +4,6 @@ header > nav:first-child {
 }
 section, footer {
 	color: #0066A4;
-	text-align: center;
 }
 section > h3, footer > h3 {
 	margin: 0;
@@ -16,6 +15,10 @@ section > h3, footer > h3 {
 footer {
 	background: #fff;
 	min-height: 320px;
+}
+.brand {
+	background: url("http://www.marlborocountysc.org/_img/logo.png") no-repeat;
+	height: 40px;
 }
 .navbar-default {
 	background-color: #fff;
@@ -81,9 +84,31 @@ footer {
 	}
 }
 /* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
+@media only screen  and (min-width : 1280px) {
+	.container {
+	  width: 1280px;
+	}
 	.internal-menu {
 		display: block;
+	}
+	.internal-menu>.navbar-right>li>a {
+		color: white;
+		padding: 0 15px;
+		line-height: 1px;
+	}
+	#main-nav>.navbar-nav>li {
+		float: left;
+	  margin-left: 30px;
+	  margin-right: 30px;
+	}
+	.social-widgets>.internal-menu>.navbar-right {
+		margin-right: 0;
+	}
+	.social-widgets>.internal-menu>.navbar-right>li {
+		margin: 1rem 0.2rem;
+		font-size: 1.2rem;
+		padding: 0 15px;
+	  line-height: 1px;
 	}
 	.social-widgets {
 		display: block;
