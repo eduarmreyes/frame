@@ -19,6 +19,16 @@
             console[method] = noop;
         }
     }
+    $(window).load(function(){
+        var randomthis = Math.floor((Math.random()* $('.flexslider li').length )+1);
+
+      $('.flexslider').flexslider({
+        start: function(slider){
+          $('body').removeClass('loading');
+        },
+        startAt: randomthis
+      });
+    });
 }());
 
 // Place any jQuery/helper plugins in here.
