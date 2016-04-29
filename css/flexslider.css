@@ -219,10 +219,10 @@ html[xmlns] .flexslider .slides {
   border: 3px solid #ffffff;
 }
 .flex-control-paging li a:hover {
-  background: #0DA6DB;
+  background: #DBCF0D;
 }
 .flex-control-paging li a.flex-active {
-  background: #0DA6DB;
+  background: #DBCF0D;
   cursor: default;
 }
 .flex-control-thumbs {
