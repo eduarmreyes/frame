@@ -1,7 +1,7 @@
 var config1 = {
   "id": '726621360579993601',
   "domId": 'tweets',
-  "maxTweets": 3,
+  "maxTweets": 5,
   "enableLinks": false,
   "showPermalinks": false,
   "showUser": false,
