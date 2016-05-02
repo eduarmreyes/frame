@@ -95,9 +95,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
-
+.news section {
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
 
 
 

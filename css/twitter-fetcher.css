@@ -1,0 +1,94 @@
+/*
+* Example style!
+* You can do whatever the hell you want on your site :-)
+*/
+
+#tweets p, a {
+  font-size:9pt;
+  color:#3d3d3d;
+}
+
+#tweets a, a:visited {
+  color:#427fed;
+}
+
+#tweets a:hover {
+  color:#82afff;
+}
+
+#tweets ul li {
+  list-style:none;
+  overflow:hidden;
+  background-color: #F8FBFF;
+  margin:5px;
+  padding:1rem;
+  display: inline-block;
+  width: 30%;
+  max-width: 300px;
+}
+
+#tweets ul li:hover {
+  background-color:#f0f3fb;
+}
+
+#tweets .user, .tweet, .timePosted {
+}
+
+#tweets .user {
+  /*width:25%;*/
+}
+
+
+#tweets .timePosted {
+  /*width:15%;*/
+}
+
+#tweets .user {
+  clear:left;
+}
+
+#tweets .user a {
+ width: 100px;
+}
+
+#tweets .user span span {
+  width:100px;
+  display:block;
+  margin-top:10px;
+}
+
+#tweets .user img, .user a > span {
+}
+
+#tweets .interact {
+}
+
+#tweets .interact a {
+  color:#848484;
+  margin-left: 15px;
+}
+
+#tweets .interact a:first-child {
+  margin-left: 0;
+}
+
+#tweets .user a > span {
+  margin-left:10px;
+}
+
+#tweets .media img {
+  max-width:250px;
+  max-height:250px;
+}
+
+#tweets #linkage {
+  position:fixed;
+  top:0px;
+  right:0px;
+  background-color:#3d3d3d;
+  color:#ffffff;
+  text-decoration:none;
+  padding:5px;
+  width:10%;
+  font-family:arial;
+}

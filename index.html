@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/frame.css">
   <link rel="stylesheet" href="css/flexslider.css">
   <link rel="stylesheet" href="css/flexslider-responsive.css">
+  <link rel="stylesheet" href="css/twitter-fetcher.css">
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
@@ -191,7 +192,10 @@
       <h3>County Connections</h3>
     </section>
     <section class="news">
-      <h3>News</h3>
+      <section>
+        <i class="fa fa-twitter"></i> @MCECONOMICDEV TWEETS / FOLLOW US
+      </section>
+      <div id="tweets"></div>
     </section>
     <section class="post-news">
       <h3></h3>
@@ -210,15 +214,101 @@
     </section>
 
   </div>
-  <footer>
-    <h3>Footer</h3>
+  <footer id="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-6 col-sm-6 col-md-2 column">
+                  <h4>Quick Links</h4>
+                  <ul class="nav">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">News</a></li>
+                      <li><a href="#">Event</a></li>
+                      <li><a href="#">Invest</a></li>
+                  </ul>
+              </div>
+              <div class="col-xs-6 col-md-2 column">
+                  <h4>Doing Business Here</h4>
+                  <ul class="nav">
+                      <li><a href="#">Major Employees</a></li>
+                      <li><a href="#">Work Experience</a></li>
+                      <li><a href="#">Training Resources</a></li>
+                      <li><a href="#">Financial Incentives</a></li>
+                      <li><a href="#">Wages and Salaries</a></li>
+                      <li><a href="#">Utilities</a></li>
+                      <li><a href="#">Transportation</a></li>
+                      <li><a href="#">Other Resources</a></li>
+                      <li><a href="#">Local Job Listings</a></li>
+                  </ul>
+              </div>
+              <div class="col-xs-6 col-md-2 column">
+                  <h4>Data/Reports</h4>
+                  <ul class="nav">
+                      <li><a href="#">Workforce</a></li>
+                      <li><a href="#">Demographic Profile</a></li>
+                      <li><a href="#">Education</a></li>
+                  </ul>
+              </div>
+              <div class="col-xs-6 col-md-2 column">
+                  <h4>Live/Work</h4>
+                  <ul class="nav">
+                      <li><a href="#">Malboro County</a></li>
+                      <li><a href="#">Cities, Towns and Communities</a></li>
+                      <li><a href="#">Points of Interest</a></li>
+                      <li><a href="#">Historic Past</a></li>
+                      <li><a href="#">Healthcare</a></li>
+                      <li><a href="#">Arts</a></li>
+                      <li><a href="#">Recreation</a></li>
+                      <li><a href="#">Public Safety</a></li>
+                  </ul>
+              </div>
+              <div class="col-xs-6 col-md-2 column">
+                  <h4>Properties</h4>
+                  <ul class="nav">
+                      <li><a href="#">Industrial Sites</a></li>
+                      <li><a href="#">Industrial Buildings</a></li>
+                  </ul>
+              </div>
+              <div class="col-xs-6 col-md-2 column">
+                  <h4>About Us</h4>
+                  <ul class="nav">
+                      <li><a href="#">2016 Contributors</a></li>
+                      <li><a href="#">Sponsorship Exposure</a></li>
+                      <li><a href="#">Sponsorship Packages</a></li>
+                      <li><a href="#">Membership Overview</a></li>
+                      <li><a href="#">Member Benefits</a></li>
+                      <li><a href="#">Committees</a></li>
+                      <li><a href="#">Committee Memners</a></li>
+                      <li><a href="#">Industrial Council</a></li>
+                  </ul>
+              </div>
+          </div>
+          <!--/row-->
+      </div>
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="www.linkedin.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="plus.google.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="www.youtube.com"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+        </li>
+      </ul>
   </footer>
-
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script src="js/jquery.flexslider.js"></script>
   <script src="js/plugins.js"></script>
+  <script src="js/twitter-fetcher.js"></script>
+  <script src="js/twitter-config.js"></script>
   <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
