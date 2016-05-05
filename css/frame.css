@@ -86,7 +86,7 @@ footer {
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1280px) {
 	.container {
-	  width: 1280px;
+	  min-width: 1200px;
 	}
 	.internal-menu {
 		display: block;
@@ -101,6 +101,41 @@ footer {
 	  margin-left: 30px;
 	  margin-right: 30px;
 	}
+	#quick-facts {
+		background: #F8FBFF;
+	}
+
+	.padTop {
+	  padding-top: 50px;
+	}
+
+	.light-blue {
+		background: #A1C7DC;
+	}
+
+	.border-light-blue {
+		border-color: #A1C7DC;
+	}
+
+	.border-light-blue>li>a {
+		background: #064885;
+		color: #fff;
+	}
+
+	.prop_box {
+	  float: left;
+	  margin-bottom: 30px;
+	  background: #f5f5f5;
+	  text-align: center;
+	  height:400px;
+	}
+
+	.prop_box .size{color:#03194d;text-transform:uppercase;margin-bottom:0.75em;margin-top:0.75em;font:500 21px "Proxima Nova";}
+	.prop_box .size span{font-size:14px;}
+	.prop_box p{color:#03194d;font-size:13px;margin:20px 30px;}
+	.prop_box img{width:100%;height:auto;}
+
+
 	.social-widgets>.internal-menu>.navbar-right {
 		margin-right: 0;
 	}
